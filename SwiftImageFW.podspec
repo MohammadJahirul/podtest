@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "SwiftImageFW"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "A test podfile"
 
   # This description is used to generate tags and improve search results.
@@ -104,7 +104,8 @@ Pod::Spec.new do |spec|
   #
 
   # spec.resource  = "icon.png"
-  # spec.resources = "SwiftImageFW/**/*.xcassets"
+  # spec.resources = "SwiftImageFW/Assets/*.xcassets"
+  
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
