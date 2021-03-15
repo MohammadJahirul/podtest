@@ -16,18 +16,17 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "SwiftImageFW"
-  spec.version      = "0.0.1"
-  spec.summary      = "A short description of SwiftImageFW."
+  spec.version      = "1.0.0"
+  spec.summary      = "A test podfile"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = <<-DESC
-                   DESC
+  spec.description  = "Working for pod activities"
 
-  spec.homepage     = "http://EXAMPLE/SwiftImageFW"
+  spec.homepage     = "https://github.com/MohammadJahirul/podtest"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -38,7 +37,7 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT (example)"
+  spec.license      = "MIT"
   # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -79,7 +78,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "http://EXAMPLE/SwiftImageFW.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/MohammadJahirul/podtest.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -105,7 +104,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.resource  = "icon.png"
-    spec.resources = "SwiftImageFW/**/*.xcassets"
+  # spec.resources = "SwiftImageFW/**/*.xcassets"
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 

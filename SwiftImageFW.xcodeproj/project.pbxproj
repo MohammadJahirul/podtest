@@ -8,18 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		119D8BDC25FE0AF50018E68C /* SwiftImageFW.h in Headers */ = {isa = PBXBuildFile; fileRef = 119D8BDA25FE0AF50018E68C /* SwiftImageFW.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		119D8BE425FE0B290018E68C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119D8BE325FE0B290018E68C /* ViewController.swift */; };
-		119D8BE725FE0B460018E68C /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119D8BE625FE0B460018E68C /* Manager.swift */; };
-		119D8BEA25FE0B790018E68C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 119D8BE925FE0B790018E68C /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		119D8BD725FE0AF50018E68C /* SwiftImageFW.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftImageFW.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		119D8BDA25FE0AF50018E68C /* SwiftImageFW.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftImageFW.h; sourceTree = "<group>"; };
 		119D8BDB25FE0AF50018E68C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		119D8BE325FE0B290018E68C /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		119D8BE625FE0B460018E68C /* Manager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
-		119D8BE925FE0B790018E68C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +46,6 @@
 		119D8BD925FE0AF50018E68C /* SwiftImageFW */ = {
 			isa = PBXGroup;
 			children = (
-				119D8BE325FE0B290018E68C /* ViewController.swift */,
-				119D8BE625FE0B460018E68C /* Manager.swift */,
-				119D8BE925FE0B790018E68C /* Assets.xcassets */,
 				119D8BDA25FE0AF50018E68C /* SwiftImageFW.h */,
 				119D8BDB25FE0AF50018E68C /* Info.plist */,
 			);
@@ -130,7 +121,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				119D8BEA25FE0B790018E68C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,8 +131,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				119D8BE425FE0B290018E68C /* ViewController.swift in Sources */,
-				119D8BE725FE0B460018E68C /* Manager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
