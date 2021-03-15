@@ -9,14 +9,12 @@
 /* Begin PBXBuildFile section */
 		118FC89D25FF0C8400718F66 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118FC89B25FF0C8400718F66 /* Manager.swift */; };
 		118FC89E25FF0C8400718F66 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118FC89C25FF0C8400718F66 /* ViewController.swift */; };
-		118FC8A225FF197400718F66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 118FC8A125FF197400718F66 /* Assets.xcassets */; };
 		119D8BDC25FE0AF50018E68C /* SwiftImageFW.h in Headers */ = {isa = PBXBuildFile; fileRef = 119D8BDA25FE0AF50018E68C /* SwiftImageFW.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		118FC89B25FF0C8400718F66 /* Manager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
 		118FC89C25FF0C8400718F66 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		118FC8A125FF197400718F66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		119D8BD725FE0AF50018E68C /* SwiftImageFW.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftImageFW.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		119D8BDA25FE0AF50018E68C /* SwiftImageFW.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftImageFW.h; sourceTree = "<group>"; };
 		119D8BDB25FE0AF50018E68C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -55,7 +53,6 @@
 				119D8BDA25FE0AF50018E68C /* SwiftImageFW.h */,
 				118FC89B25FF0C8400718F66 /* Manager.swift */,
 				118FC89C25FF0C8400718F66 /* ViewController.swift */,
-				118FC8A125FF197400718F66 /* Assets.xcassets */,
 				119D8BDB25FE0AF50018E68C /* Info.plist */,
 			);
 			path = SwiftImageFW;
@@ -130,7 +127,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				118FC8A225FF197400718F66 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
